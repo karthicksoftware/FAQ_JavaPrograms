@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59" started-at="2018-04-04T11:13:41Z" finished-at="2018-04-04T11:13:41Z">
+    <groups>
+    </groups>
+    <test name="Test_Programs" duration-ms="59" started-at="2018-04-04T11:13:41Z" finished-at="2018-04-04T11:13:41Z">
+      <class name="com.java.programs.AllPrograms">
+        <test-method status="PASS" signature="printPrimeNumbers()[pri:0, instance:com.java.programs.AllPrograms@6276ae34]" name="printPrimeNumbers" duration-ms="29" started-at="2018-04-04T07:13:41Z" finished-at="2018-04-04T07:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printPrimeNumbers -->
+      </class> <!-- com.java.programs.AllPrograms -->
+    </test> <!-- Test_Programs -->
+  </suite> <!-- Suite -->
+</testng-results>

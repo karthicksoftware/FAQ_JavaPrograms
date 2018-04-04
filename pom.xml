@@ -25,10 +25,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.5.1</version>
-			<type>jar</type>
-			<scope>compile</scope>
-			<optional>false</optional>
+			<version>6.9.10</version>
 		</dependency>
 	</dependencies>
 
