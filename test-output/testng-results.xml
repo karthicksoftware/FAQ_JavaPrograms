@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59" started-at="2018-04-04T11:13:41Z" finished-at="2018-04-04T11:13:41Z">
+  <suite name="Default suite" duration-ms="29783" started-at="2018-04-05T09:54:02Z" finished-at="2018-04-05T09:54:32Z">
     <groups>
     </groups>
-    <test name="Test_Programs" duration-ms="59" started-at="2018-04-04T11:13:41Z" finished-at="2018-04-04T11:13:41Z">
+    <test name="Default test" duration-ms="29783" started-at="2018-04-05T09:54:02Z" finished-at="2018-04-05T09:54:32Z">
       <class name="com.java.programs.AllPrograms">
-        <test-method status="PASS" signature="printPrimeNumbers()[pri:0, instance:com.java.programs.AllPrograms@6276ae34]" name="printPrimeNumbers" duration-ms="29" started-at="2018-04-04T07:13:41Z" finished-at="2018-04-04T07:13:41Z">
+        <test-method status="PASS" signature="addTwoMatrices()[pri:0, instance:com.java.programs.AllPrograms@6276ae34]" name="addTwoMatrices" duration-ms="29745" started-at="2018-04-05T05:54:02Z" finished-at="2018-04-05T05:54:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printPrimeNumbers -->
+        </test-method> <!-- addTwoMatrices -->
       </class> <!-- com.java.programs.AllPrograms -->
-    </test> <!-- Test_Programs -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
