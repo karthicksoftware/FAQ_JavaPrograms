@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29783" started-at="2018-04-05T09:54:02Z" finished-at="2018-04-05T09:54:32Z">
+  <suite name="Default suite" duration-ms="48" started-at="2018-04-19T11:08:11Z" finished-at="2018-04-19T11:08:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29783" started-at="2018-04-05T09:54:02Z" finished-at="2018-04-05T09:54:32Z">
+    <test name="Default test" duration-ms="48" started-at="2018-04-19T11:08:11Z" finished-at="2018-04-19T11:08:11Z">
       <class name="com.java.programs.AllPrograms">
-        <test-method status="PASS" signature="addTwoMatrices()[pri:0, instance:com.java.programs.AllPrograms@6276ae34]" name="addTwoMatrices" duration-ms="29745" started-at="2018-04-05T05:54:02Z" finished-at="2018-04-05T05:54:32Z">
+        <test-method status="PASS" signature="evenOrOddWithoutModuDiv()[pri:0, instance:com.java.programs.AllPrograms@7946e1f4]" name="evenOrOddWithoutModuDiv" duration-ms="22" started-at="2018-04-19T16:38:11Z" finished-at="2018-04-19T16:38:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addTwoMatrices -->
+        </test-method> <!-- evenOrOddWithoutModuDiv -->
       </class> <!-- com.java.programs.AllPrograms -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
