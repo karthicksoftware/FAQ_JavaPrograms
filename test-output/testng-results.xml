@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48" started-at="2018-04-19T11:08:11Z" finished-at="2018-04-19T11:08:11Z">
+  <suite name="Default suite" duration-ms="3737" started-at="2018-04-20T02:59:35Z" finished-at="2018-04-20T02:59:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48" started-at="2018-04-19T11:08:11Z" finished-at="2018-04-19T11:08:11Z">
+    <test name="Default test" duration-ms="3737" started-at="2018-04-20T02:59:35Z" finished-at="2018-04-20T02:59:38Z">
       <class name="com.java.programs.AllPrograms">
-        <test-method status="PASS" signature="evenOrOddWithoutModuDiv()[pri:0, instance:com.java.programs.AllPrograms@7946e1f4]" name="evenOrOddWithoutModuDiv" duration-ms="22" started-at="2018-04-19T16:38:11Z" finished-at="2018-04-19T16:38:11Z">
+        <test-method status="PASS" signature="reverseStringWithoutAPI()[pri:0, instance:com.java.programs.AllPrograms@69d9c55]" name="reverseStringWithoutAPI" duration-ms="3691" started-at="2018-04-20T08:29:35Z" finished-at="2018-04-20T08:29:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- evenOrOddWithoutModuDiv -->
+        </test-method> <!-- reverseStringWithoutAPI -->
       </class> <!-- com.java.programs.AllPrograms -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

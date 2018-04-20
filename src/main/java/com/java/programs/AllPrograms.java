@@ -197,15 +197,30 @@ public class AllPrograms {
 	}
 	
 	// Check Even or Odd without using modulus and division
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void evenOrOddWithoutModuDiv() {
-		/*Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter number:");
-		int value = input.nextInt();*/
-		
+		int value = input.nextInt();
+		if((value & 1) == 0)
+			System.out.println("Even") ;
+		else
+			System.out.println("Odd");
 	}
 	
 	// String Reverse Without using String API
+	@Test(enabled = true)
+	public void reverseStringWithoutAPI() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter number:");
+		String value = input.nextLine();
+		char[] result = new char[value.toCharArray().length];
+		for (int i = 0; i < value.toCharArray().length; i++) {
+			result[i] = value.charAt(value.toCharArray().length - 1 -i);
+		}
+		System.out.println(result);
+	}
+	
 	// Check string is palindrome or not?
 	// Reverse a number in java?
 	// Fibonacci series with Recursive?
@@ -219,5 +234,73 @@ public class AllPrograms {
 	// Explain return type in java
 	// Can we call Sub class methods using super class object?
 	// Can we Override private methods ?
+
+	// Java Program to Print prime numbers?
+	// What happens if we place return statement in try catch blocks
+	// Write a java program to convert binary to decimal
+	// Java Program to convert Decimal to Binary
+	// Is it possible to print message without using System.out.println()
+	// Java program to restrict a class from creating not more than three
+	// objects
+	// Java basic interview programs on this keyword
+	// Java Program to Sort elements of Java ArrayList Example
+	// Interfaces allows constructors?
+	// Can we create static constructor in java
+	// Super keyword interview questions java
+	// Java interview questions on final keyword
+	// Can we create private constructor in java
+	// Java Program Find Second highest number in an integer array
+	// Java interview programming questions on interfaces
+	// Top 15 abstract class interview questions
+	// Java interview Questions on main() method
+	// Sort employee object by id in descending order using comparable and
+	// TreesSet
+	// Top 20 collection framework interview Questions
+	// Java Interview Program to find smallest and second smallest number in an
+	// array
+	// Java Coding Interview programming Questions : Java Test on HashMap
+	// Explain java data types with example programs
+	// How to check internet connection using java
+	// Constructor chaining in java with example programs
+	// Top 10 Interview Programs and questions on method overriding in java
+	// Swap two numbers without using third variable in java
+	// Find sum of digits in java
+	// How to create immutable class in java
+	// AtomicInteger in java
+	// Check Even or Odd without using modulus and division
+	// String Reverse Without using String API
+	// Find Biggest substring in between specified character
+	// Check string is palindrome or not?
+	// Reverse a number in java?
+	// Fibonacci series with Recursive?
+	// Fibonacci series without using Recursive?
+	// Sort the String using string API?
+	// Sort the String without using String API?
+	// what is the difference between method overloading and method overriding?
+	// How to find largest element in an array with index and value ?
+	// Sort integer array using bubble sort in java?
+	// Object Cloning in java example?
+	// Method Overriding in java?
+	// Program for create Singleton class?
+	// Print numbers in pyramid shape?
+	// Check armstrong number or not?
+	// Producer Consumer Problem?
+	// Remove duplicate elements from an array
+	// Convert Byte Array to String
+	// Print 1 to 10 without using loops
+	// Add 2 Matrices
+	// Multiply 2 Matrices
+	// How to Add elements to hash map and Display
+	// Sort ArrayList in descending order
+	// Sort Object Using Comparator
+	// Count Number of Occurrences of character in a String
+	// Can we Overload static methods in java
+	// Can we Override static methods in java
+	// Can we call super class static methods from sub class
+	// Explain return type in java
+	// Can we call Sub class methods using super class object?
+	// Can we Override private methods ?
+	// Basic Programming Questions to Practice : Test your Skill
+	// Java programming interview questions on collections
 
 }
