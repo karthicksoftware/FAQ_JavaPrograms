@@ -209,7 +209,7 @@ public class AllPrograms {
 	}
 	
 	// String Reverse Without using String API
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void reverseStringWithoutAPI() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter number:");
@@ -221,11 +221,43 @@ public class AllPrograms {
 		System.out.println(result);
 	}
 	
+	@Test(enabled = false)
+	public void getPow() {
+		System.out.println(pow(12,7));
+		System.out.println(Math.pow(12, 7));
+	}
+	
+	double pow(double base, double power){
+		double result = 1;
+		int itr = 0;
+		while (itr < power){
+			result = result * base;
+			itr++;
+		}
+		return result;
+	}
+	
 	// Check string is palindrome or not?
+	@Test(enabled = true)
+	public void findPalindrome() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter name:");
+		String value = input.nextLine();
+		char[] actual = value.toCharArray();
+		char[] expected = new char[actual.length];
+		for (int i = 0; i < actual.length; i++) {
+			expected[i] = actual[actual.length - i - 1];
+		}
+		if(String.valueOf(expected).equals(String.valueOf(actual)))
+			System.out.println("Is Palindrome");
+		else
+			System.out.println("Is Not a Palindrome");
+	}
+	
 	// Reverse a number in java?
 	// Fibonacci series with Recursive?
 	// Fibonacci series without using Recursive?
-	// Sort the String using string API?
+	// Sort the String using string API? 
 	// Sort the String without using String API?
 	// How to find largest element in an array with index and value ?
 	// Sort integer array using bubble sort in java?
