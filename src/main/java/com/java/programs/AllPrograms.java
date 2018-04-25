@@ -1,6 +1,7 @@
 package com.java.programs;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
@@ -273,7 +274,7 @@ public class AllPrograms {
 	}
 
 	// Fibonacci series with Recursive?
-	
+
 	// Fibonacci series without using Recursive?
 	@Test(enabled = false)
 	public void fibo() {
@@ -287,7 +288,7 @@ public class AllPrograms {
 		System.out.print(a);
 		System.out.print(" ");
 		System.out.print(b);
-		while(itr < value){
+		while (itr < value) {
 			res = a + b;
 			a = b;
 			System.out.print(" ");
@@ -299,10 +300,55 @@ public class AllPrograms {
 	}
 
 	// Sort the String using string API?
-	
-	
+	@Test(enabled = false)
+	public void sort1() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter name:");
+		char value[] = input.nextLine().toCharArray();
+		Arrays.sort(value);
+		System.out.println(new String(value));
+	}
+
 	// Sort the String without using String API?
+	@Test(enabled = false)
+	public void sort2() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter name:");
+		char value[] = input.nextLine().toCharArray();
+		for (int i = 0; i < value.length; i++) {
+			for (int j = i; j < value.length; j++) { //j should be started from i or else, already sorted values will collapsed
+				if (Character.valueOf(value[i]).compareTo(value[j]) > 0) {
+					char temp = value[i];
+					value[i] = value[j];
+					value[j] = temp;
+				}
+			}
+		}
+		System.out.println(new String(value));
+	}
+
 	// How to find largest element in an array with index and value ?
+	@Test(enabled = true)
+	public void bignumber() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter size:");
+		int size =  input.nextInt();
+		int[] items = new int[size];
+		for (int i = 0; i < size; i++) {
+			items[i] = input.nextInt();
+		}
+		for (int i = 0; i < items.length; i++) {
+			for (int j = i; j < items.length; j++) {
+				if(items[i] > items[j]){
+					int temp = items[i];
+					items[i]= items[j];
+					items[j] =  temp;
+				}
+			}
+		}
+		System.out.println("Largest element is:"+items[size-1]);
+	}
+	
 	// Sort integer array using bubble sort in java?
 	// Check armstrong number or not?
 	// Multiply 2 Matrices
